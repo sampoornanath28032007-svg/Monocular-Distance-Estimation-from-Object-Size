@@ -28,7 +28,8 @@ Range-estimation systems (e.g. single-camera/IR-based distance sensing) often ca
 - Predictions closely track true distances at short range (<30m), where the model is highly accurate.
 - Key finding: accuracy degrades at longer range (>50-60m), with the model systematically underpredicting distance. This matches real-world range-estimation behavior: because pixel size changes very little per meter at long distances (the inverse relationship flattens out), a fixed amount of sensor noise represents a much larger relative signal distortion far away than up close — so the model has less reliable signal to work with for distant objects.
 
-![predictions vs true distance](predictions_vs_true.png)
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/4fd7c8c2-e5d8-41b6-8c19-45c94be1465c" />
+
 *(scatter plot: predicted vs. true distance, red dashed line = perfect prediction)*
 
 ## Tech stack
